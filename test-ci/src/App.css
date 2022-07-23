@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 36);
+    color: white
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+.App {
+    width: 600px;
+    height: 1627px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.links {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.homepage h1 {
+    /* padding: 5px; */
+    font-size: 2rem;
+}
+
+.homepage span {
+    padding: 5px;
+    background-color: orange;
+    background-image: linear-gradient(to right, red, orange);
+   
+    border-radius: 5px;
+}
+
+.link-shortener {
+    height: 320px;
+    margin: 30px;
+    padding:20px;
+    line-height: 40px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.link-shortener h2 {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.input-link {
+    background-color: white;
+display: flex;
+
+}
+.input-link h3 {
+    background-color: white;
+    color: black;
+}
+.input-link input {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(210, 210, 210);
+border-radius: 5px;
+padding-left: 10px;
+font-size: 20px;
+color: black
+}
+.icon-arrow {
+    width: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+.domain-container {
+    background-color: white;
+    color: black
+}
+
+.short-domain {
+margin-top: 20px;
+    display: flex;
+    background-color: white;
+    color: black;
+
+}
+
+.short-domain h3 {
+    background-color: white;
+    color: black;
+}
+
+.short-domain button {
+    margin-left: 10px;
+    background-color: rgb(210, 210, 210);
+
+
+}
+
+
+
+
+
+.homepage p {
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    line-height: 20px;;
+}
+.content-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.content {
+    margin-bottom: 30px;
+    height: 300;
+    width: 600px;
+    background-color: orange;
+    background-image: linear-gradient(to right, red, orange);
+padding: 20px;
+text-align: left;
+}
+
+.content h1 {
+    background-color: orange;
+    background-image: linear-gradient(to right, red, orange);
+
+}
+
+.content p {
+    background-color: orange;
+    background-image: linear-gradient(to right, red, orange);
+
+color: white
+}
+
+
+.linkgenerated-container {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+.linkgenerated {
+    background-color: white;
+    color: black;
+    padding-top: 20px ;
+}
+
+.linkgenerated h3 {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.linkgenerated a {
+    background-color: white;
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.icon-container {
+    font-size: 50px;
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: white;
+    
+}
+
+.icon {
+ margin: 10px;
+
+}
+
+.icon :hover{
+    cursor: pointer;
+}
